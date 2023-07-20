@@ -70,7 +70,7 @@ class _WebViewPageState extends State<WebViewPage> {
       )
 
       //<----------- URI 주소는 여기에서 바꾸면 됩니다.--------------->
-      ..loadRequest(Uri.parse('https://www.naver.com/'));
+      ..loadRequest(Uri.parse('http://110.10.130.108:8080/'));
 
     if (controller.platform is AndroidWebViewController) {
       AndroidWebViewController.enableDebugging(true);
